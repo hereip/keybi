@@ -1,6 +1,5 @@
 {
   "modifier": "alt_gr",
-  "step": 10,
   "repeat_delay": 0.3,
   "repeat_rate": 0.05,
   "binds": {
@@ -9,10 +8,12 @@
     "up":    { "action": "mouse_move", "dx": 0,  "dy": -10, "repeat": true },
     "down":  { "action": "mouse_move", "dx": 0,  "dy":  10, "repeat": true },
 
-    "a": { "action": "mouse_click", "button": "left"  },
+    "a": { "action": "mouse_press", "button": "left" },
     "d": { "action": "mouse_click", "button": "right" },
 
     "w": { "action": "mouse_scroll", "dy": -1, "repeat": true },
-    "s": { "action": "mouse_scroll", "dy":  1, "repeat": true }
+    "s": { "action": "mouse_scroll", "dy":  1, "repeat": true },
+
+    "q": { "action": "mouse_click", "button": "left" }
   }
 }
